@@ -1,0 +1,409 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 290px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+
+    .bt_main { display: none;}
+    .about_text { font-size: 31px;}
+    .read_more { width: 75%;}
+    .product_text { font-size: 33pt;}
+    .gallery_taital { font-size: 33pt;}
+    .about_taital { font-size: 12pt;}
+    .input_main { padding: 20px 0px 13px 0px;}
+    .email-bt {  height: 45px;}
+    .massage-bt {  height: 115px;}
+    .email_text { padding-left: 13px;}
+
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+.carousel-control-next {top: 70%;}
+.carousel-control-next {
+    right: 1022px;
+}
+.carousel-control-prev {left: -79px; top: 55%;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .titlepage h2::after {width: 58%;}
+    .about-box .titlepage h2::after {
+        width: 52%;
+right: -221px;
+    }
+    .Nursery-img .text-box h3 {padding: 111px 50px;}
+    .contact .titlepage h2::after {
+    left: -650px;
+width: 30%;
+   }
+   .sporrt_text { margin-top: 0px;}
+   #main_slider a.carousel-control-prev {
+    display: none;
+   }
+   #main_slider a.carousel-control-next {
+    display: none;
+    }
+    .about_text { font-size: 42pt; }
+    .read_more { width: 40%; }
+    .images { padding-bottom: 40px; }
+    .email-bt { height: 45px;}
+    .massage-bt { height: 120px;  }
+    .input_main { padding: 20px 10px 0px 10px; }
+    .contact_text { width: 28%; }
+    .email_text { font-size: 13px; padding-left: 5px; }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul > li a {padding: 7px 6px ; }
+    .main-menu ul>li a { font-size: 14px;}
+
+    .banner-main .carousel-caption h1 {
+
+        font-size: 36px;
+        padding-top: 0px;
+    }
+    .banner-main .carousel-caption p {
+
+        margin-bottom: 7px;
+        display: none;
+    }
+    .main { width: 15%;}
+    .info_icon { min-width: 10%;}
+    #main_slider a.carousel-control-prev {
+    display: none;
+}
+.btn_main { margin-top: 58px; width: 65%;}
+#main_slider a.carousel-control-next {
+    display: none;
+}
+.sporrt_text { margin-top: 0px; font-size: 24px;}
+.email_btn { padding: 41px;}
+    .btn-primary {max-width: 144px;}
+    .titlepage h2::after {width: 79%;}
+    .about-box .titlepage h2::after {width: 73%;
+right: -88px;}
+   .contact .titlepage h2::after {
+left: -403px;
+width: 41%;
+   }
+.paddimg-right {
+    padding-right: 15px;
+}
+.paddimg-left {
+    padding-left: 15px;
+}
+.menu_main {
+    width: 75%;}
+
+.banner_taital { font-size: 35pt; line-height: 56px;}
+.lorem_text { font-size: 17px;}
+.banner_bt { width: 25%;}
+.taital { margin-top: 0;}
+.about_text { font-size: 40px;}
+.read_more { width: 50%; }
+.product_text { margin-top: 0px; }
+.den_text { font-size: 20px; }
+.images { padding-bottom: 30px; }
+.email-bt { height: 40px; font-size: 15px;}
+.massage-bt { height: 100px; font-size: 15px; }
+.input_main { padding: 20px 5px 0px 0px;}
+.contact_text { width: 37%; }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .last {display: none;}
+    .banner-main .carousel-caption {top: 0%;}
+.titlepage h2 {
+font-size: 42px;
+display: block; 
+}
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 25%;
+    top: 64%;
+    display: none;
+}
+
+.gallery_blog img {
+
+    width: 100%;
+    min-height: 194px;
+
+}
+.banner_taital {font-size: 39pt; line-height: 64px;}
+
+.btn_main { margin-top: 58px; width: 80%;}
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 50px;
+    top: 64%;
+    display: none;
+}
+.btn-primary {
+    margin-top: 0px;
+    margin-left: -7px;
+}
+.menu_main {
+    width: 95%;}
+
+.banner-main .carousel-caption h1 {
+    font-size: 50px;
+}
+.titlepage h2::after {
+width: 88%;
+}
+
+.about-box .titlepage h2::after {width: 45%;
+right: -281px;}
+.sporrt_text { margin-top: 0px;}
+.Nursery-img .text-box h3 {
+font-size: 36px;
+padding: 126px 40px;
+}
+.main {
+    width: 20%;}
+
+.contact .titlepage h2::after {
+    left: -234px;
+width: 55%;
+}
+
+.taital { margin-top: 0px;}
+.banner_bt { width: 35%; }
+.about_text { width: 70%; font-size: 44px; }
+.read_more { width: 35%;}
+.den_text { font-size: 15px; }
+.images{ padding-bottom: 20px; }
+.send_btn { padding-bottom: 50px;}
+.contact_text { width: 50%;}
+.email_text { font-size: 16px; padding-left: 14px; }
+ 
+}
+
+
+@media (max-width: 575px) {
+    .last { display: none; }
+    .carousel-caption {display: none;} 
+.header { padding-top: 0px; }
+.logo { float: inherit; padding-bottom: 15px; text-align: center;}
+.btn-primary {max-width: 126px;
+margin-right: 2px;
+font-size: 14px;}
+.banner-main .carousel-caption h1 {font-size: 30px; line-height: 38px;}
+.titlepage h2 {
+    font-size: 27px;
+}
+.sporrt_text{ 
+     font-size: 23px; 
+     margin-top: 0px;
+}
+.main {
+    width: 30%;
+}
+.btn_main {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    width: 55%;}
+
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 175px;
+    top: 90%;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 236px;
+    top: 90%;
+}
+
+.titlepage h2::after {
+    width: 93%;
+}
+    .about-box .titlepage h2::after {
+        width: 238px;
+        right: -50px;
+    }
+ .Gallery .titlepage h2 {
+    font-size: 47px;
+ }
+    .Gallery .titlepage h2::after {
+        width: 89%;
+    }
+
+    .paddimg-right {
+    padding-right: 15px;
+}
+.paddimg-left {
+    padding-left: 15px;
+}
+.Nursery-img .text-box h3 {
+font-size: 23px;
+padding: 30px 14px;
+
+}
+
+.contact .titlepage h2::after {
+
+    left: -8px;
+    width: 281px;
+}
+.footer .headinga span {
+font-size: 16px;
+
+}
+.menu-bottom {
+    margin-bottom: 45px;
+}
+ul.link li {
+
+    padding: 8px 12px;
+    padding-bottom: 0px; 
+}
+
+
+.banner_bt { width: 35%; margin-top: 70px;}
+.taital {  display: none;}
+.images {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.send_btn { margin-bottom: 30px;}
+.map_section { padding-top: 30px;}
+.contact_text { width: 80%; font-size: 37px;}
+
+
+}
